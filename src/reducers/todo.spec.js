@@ -16,6 +16,7 @@ describe('Todo Reducer', () => {
         }
 
         const expectedState = {
+            currentTodo: '',
             todos: [
                 {id: 1, name: 'Create a basic UI', isComplete: true},
                 {id: 2, name: 'Create a basic UI 2', isComplete: false},
